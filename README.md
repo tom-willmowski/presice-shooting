@@ -7,7 +7,7 @@
 4. correct for a sniper type of game
 
 ## todo
-- [ ] PoC
+- [x] PoC
 - [ ] experimenting with edge conditions (low frame rate etc.)
 - [ ] performance tests on device
 
