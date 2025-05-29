@@ -7,6 +7,6 @@ public class Bullet : MonoBehaviour
     public void Fire(float speed)
     {
         physics.velocity = transform.forward * speed;
-        Destroy(gameObject, 5);
+        Destroy(gameObject, 3);
     }
 }
