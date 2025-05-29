@@ -4,7 +4,7 @@
 1. ballistics
 2. precision
 3. working correctly on mobile platforms
-4. correct for a sniper type of game
+4. for a sniper type of game
 
 ## todo
 - [x] PoC
