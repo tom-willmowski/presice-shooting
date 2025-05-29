@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     [SerializeField] private RenderTexture bulletTexture;
     
     [SerializeField] private RawImage outputImage;
+
+    [SerializeField] private GameObject redPlane, blackPlane;
     
     private Texture2D output;
 
@@ -38,7 +40,10 @@ public class Player : MonoBehaviour
         Debug.Log(color);
         if (color == Color.black)
         {
-            Debug.Log("hit");
+            Destroy(blackPlane);
+        }else if (color == Color.red)
+        {
+            Destroy(redPlane);
         }
     }
 
